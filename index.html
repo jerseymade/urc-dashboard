@@ -4977,15 +4977,15 @@
       }
     ]
   },
-  "last_refresh": "2026-08-22T06:12:10.757367Z",
+  "last_refresh": "2026-08-22T12:10:21.490880Z",
   "data_source": "Google Sheets: URC Pipeline Report - JD Test + Master Tracker 2026 (live)",
   "production": {
     "summary": {
       "total_tracked": 772,
       "complete": 628,
-      "in_progress": 53,
+      "in_progress": 51,
       "on_notice": 83,
-      "overdue": 8,
+      "overdue": 10,
       "removed": 49,
       "early": 404,
       "ontime": 125,
@@ -5011,9 +5011,9 @@
       },
       {
         "complete": 153,
-        "in_progress": 18,
+        "in_progress": 17,
         "on_notice": 16,
-        "overdue": 0,
+        "overdue": 1,
         "removed": 12,
         "early": 65,
         "ontime": 25,
@@ -5024,9 +5024,9 @@
       },
       {
         "complete": 122,
-        "in_progress": 14,
+        "in_progress": 13,
         "on_notice": 13,
-        "overdue": 2,
+        "overdue": 3,
         "removed": 17,
         "early": 75,
         "ontime": 40,
@@ -5166,9 +5166,9 @@
       },
       {
         "complete": 71,
-        "in_progress": 7,
+        "in_progress": 6,
         "on_notice": 8,
-        "overdue": 0,
+        "overdue": 1,
         "removed": 7,
         "early": 39,
         "ontime": 16,
@@ -5214,9 +5214,9 @@
       },
       {
         "complete": 46,
-        "in_progress": 7,
+        "in_progress": 6,
         "on_notice": 5,
-        "overdue": 2,
+        "overdue": 3,
         "removed": 4,
         "early": 22,
         "ontime": 17,
@@ -5331,9 +5331,9 @@
         "state": "WA",
         "client": "Equity",
         "complete": 49,
-        "in_progress": 6,
+        "in_progress": 5,
         "on_notice": 6,
-        "overdue": 0,
+        "overdue": 1,
         "removed": 5,
         "sup": "Edwin Guerra",
         "property": "Alcyone",
@@ -5655,9 +5655,9 @@
         "state": "SoCal",
         "client": "Cushman and Wakefield",
         "complete": 8,
-        "in_progress": 4,
+        "in_progress": 3,
         "on_notice": 0,
-        "overdue": 2,
+        "overdue": 3,
         "removed": 0,
         "sup": "Juan Rosales",
         "property": "Mirada at La Jolla",
@@ -6000,9 +6000,9 @@
       },
       {
         "complete": 173,
-        "in_progress": 13,
+        "in_progress": 12,
         "on_notice": 23,
-        "overdue": 0,
+        "overdue": 1,
         "removed": 12,
         "client": "Equity",
         "total": 221
@@ -6081,9 +6081,9 @@
       },
       {
         "complete": 8,
-        "in_progress": 4,
+        "in_progress": 3,
         "on_notice": 0,
-        "overdue": 2,
+        "overdue": 3,
         "removed": 0,
         "client": "Cushman and Wakefield",
         "total": 14
@@ -6178,7 +6178,7 @@
         "client": "Equity",
         "property": "Alcyone",
         "unit": "1-816",
-        "status": "in_progress",
+        "status": "overdue",
         "sup": "Edwin Guerra",
         "elapsed": 17,
         "due": "2026-08-21T00:00:00",
@@ -7080,7 +7080,7 @@
         "client": "Cushman and Wakefield",
         "property": "Mirada at La Jolla",
         "unit": "1915",
-        "status": "in_progress",
+        "status": "overdue",
         "sup": "Juan Rosales",
         "elapsed": 15,
         "due": "2026-08-21T00:00:00",
@@ -7761,12 +7761,12 @@
       {
         "label": "In-Progress",
         "key": "in_progress",
-        "count": 53
+        "count": 51
       },
       {
         "label": "Overdue",
         "key": "overdue",
-        "count": 8
+        "count": 10
       },
       {
         "label": "Removed",
@@ -11477,6 +11477,26 @@
           "due": "8/19/2026",
           "cm": "Isaac Espinoza",
           "days_late": 3
+        },
+        {
+          "state": "WA",
+          "client": "Equity",
+          "property": "Alcyone",
+          "unit": "1-816",
+          "status": "1 Overdue",
+          "due": "8/21/26",
+          "cm": "Edwin Guerra",
+          "days_late": 1
+        },
+        {
+          "state": "SoCal",
+          "client": "Cushman and Wakefield",
+          "property": "Mirada at La Jolla",
+          "unit": "1915",
+          "status": "1 Overdue",
+          "due": "8/21/26",
+          "cm": "Juan Rosales",
+          "days_late": 1
         }
       ],
       "by_cm": [
@@ -11490,7 +11510,7 @@
         },
         {
           "cm": "Juan Rosales",
-          "count": 2,
+          "count": 3,
           "max_days": 3,
           "properties": [
             "Mirada at La Jolla"
@@ -11511,9 +11531,17 @@
           "properties": [
             "River Terrace"
           ]
+        },
+        {
+          "cm": "Edwin Guerra",
+          "count": 1,
+          "max_days": 1,
+          "properties": [
+            "Alcyone"
+          ]
         }
       ],
-      "total": 8
+      "total": 10
     }
   },
   "data_sources": {
@@ -11576,7 +11604,7 @@
         "submitted": 15,
         "awarded": 12,
         "win_rate": 75.0,
-        "avg_days_outstanding": 47.2
+        "avg_days_outstanding": 48.0
       },
       {
         "estimator": "Temo R.",
@@ -11585,7 +11613,7 @@
         "submitted": 31,
         "awarded": 15,
         "win_rate": 53.6,
-        "avg_days_outstanding": 59.4
+        "avg_days_outstanding": 60.1
       },
       {
         "estimator": "Joseph D.",
@@ -11594,7 +11622,7 @@
         "submitted": 3,
         "awarded": 1,
         "win_rate": 14.3,
-        "avg_days_outstanding": 54.3
+        "avg_days_outstanding": 54.9
       },
       {
         "estimator": "Jessica W.",
@@ -11603,7 +11631,7 @@
         "submitted": 0,
         "awarded": 0,
         "win_rate": 0.0,
-        "avg_days_outstanding": 23.0
+        "avg_days_outstanding": 24.0
       }
     ],
     "awarded_by_region": [
@@ -11648,7 +11676,7 @@
         "region": "SoCal",
         "status": "S",
         "estimator": "Jessica K.",
-        "outstanding_days": 100,
+        "outstanding_days": 101,
         "value": 7284654.0
       },
       {
@@ -11657,7 +11685,7 @@
         "region": "WA",
         "status": "S",
         "estimator": "Jessica K.",
-        "outstanding_days": 2,
+        "outstanding_days": 3,
         "value": 6000000.0
       },
       {
@@ -11675,7 +11703,7 @@
         "region": "CO",
         "status": "DD",
         "estimator": "Jessica W.",
-        "outstanding_days": 23,
+        "outstanding_days": 24,
         "value": 4694269.0
       },
       {
@@ -11684,7 +11712,7 @@
         "region": "WA",
         "status": "S",
         "estimator": "Jessica K.",
-        "outstanding_days": 98,
+        "outstanding_days": 99,
         "value": 4504500.0
       },
       {
@@ -11693,7 +11721,7 @@
         "region": "SoCal",
         "status": "S",
         "estimator": "Jessica K.",
-        "outstanding_days": 73,
+        "outstanding_days": 74,
         "value": 3572096.4
       },
       {
@@ -11702,7 +11730,7 @@
         "region": "SoCal",
         "status": "DD",
         "estimator": "Joseph D.",
-        "outstanding_days": 57,
+        "outstanding_days": 58,
         "value": 3074365.0
       },
       {
@@ -11711,7 +11739,7 @@
         "region": "SoCal",
         "status": "DD",
         "estimator": "Temo R.",
-        "outstanding_days": 79,
+        "outstanding_days": 80,
         "value": 2500000.0
       },
       {
@@ -11720,7 +11748,7 @@
         "region": "SoCal",
         "status": "S",
         "estimator": "Joseph D.",
-        "outstanding_days": 80,
+        "outstanding_days": 81,
         "value": 2311727.0
       },
       {
@@ -11729,7 +11757,7 @@
         "region": "NorCal",
         "status": "S",
         "estimator": "Jessica K.",
-        "outstanding_days": 58,
+        "outstanding_days": 59,
         "value": 1630025.3
       },
       {
@@ -11747,7 +11775,7 @@
         "region": "CO",
         "status": "S",
         "estimator": "Temo R.",
-        "outstanding_days": 21,
+        "outstanding_days": 22,
         "value": 1436500.0
       },
       {
@@ -11756,7 +11784,7 @@
         "region": "SoCal",
         "status": "DD",
         "estimator": "Temo R.",
-        "outstanding_days": 31,
+        "outstanding_days": 32,
         "value": 1400000.0
       },
       {
@@ -11765,18 +11793,18 @@
         "region": "SoCal",
         "status": "S",
         "estimator": "Temo R.",
-        "outstanding_days": 30,
+        "outstanding_days": 31,
         "value": 1240560.0
       }
     ],
     "aging": [
       {
         "bucket": "0-30d",
-        "count": 17
+        "count": 16
       },
       {
         "bucket": "31-60d",
-        "count": 18
+        "count": 19
       },
       {
         "bucket": "61-90d",
@@ -15679,7 +15707,7 @@
         "estimator": "Temo R.",
         "bid_due": null,
         "bid_submitted": "2026-05-01T00:00:00",
-        "outstanding_days": 112,
+        "outstanding_days": 113,
         "value": 300000.0,
         "bid_value": 300000.0,
         "contract_value": 0.0,
@@ -15708,7 +15736,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-05-05T00:00:00",
         "bid_submitted": "2026-05-05T00:00:00",
-        "outstanding_days": 108,
+        "outstanding_days": 109,
         "value": 127540.0,
         "bid_value": 127540.0,
         "contract_value": 0.0,
@@ -15766,7 +15794,7 @@
         "estimator": "Joseph D.",
         "bid_due": "2026-06-30T00:00:00",
         "bid_submitted": "2026-06-25T00:00:00",
-        "outstanding_days": 57,
+        "outstanding_days": 58,
         "value": 3074365.0,
         "bid_value": 3074365.0,
         "contract_value": 0.0,
@@ -15795,7 +15823,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-06-19T00:00:00",
         "bid_submitted": "2026-06-03T00:00:00",
-        "outstanding_days": 79,
+        "outstanding_days": 80,
         "value": 2500000.0,
         "bid_value": 2500000.0,
         "contract_value": 0.0,
@@ -15882,7 +15910,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-06-30T00:00:00",
         "bid_submitted": "2026-06-25T00:00:00",
-        "outstanding_days": 57,
+        "outstanding_days": 58,
         "value": 995395.59,
         "bid_value": 995395.59,
         "contract_value": 0.0,
@@ -15911,7 +15939,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-07-21T00:00:00",
         "bid_submitted": "2026-07-21T00:00:00",
-        "outstanding_days": 31,
+        "outstanding_days": 32,
         "value": 1400000.0,
         "bid_value": 1400000.0,
         "contract_value": 0.0,
@@ -15940,7 +15968,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-06-30T00:00:00",
         "bid_submitted": "2026-06-30T00:00:00",
-        "outstanding_days": 52,
+        "outstanding_days": 53,
         "value": 114398.65,
         "bid_value": 114398.65,
         "contract_value": 0.0,
@@ -15969,7 +15997,7 @@
         "estimator": "Joseph D.",
         "bid_due": "2026-07-30T00:00:00",
         "bid_submitted": "2026-07-30T00:00:00",
-        "outstanding_days": 22,
+        "outstanding_days": 23,
         "value": 1023489.0,
         "bid_value": 1023489.0,
         "contract_value": 0.0,
@@ -15998,7 +16026,7 @@
         "estimator": "Joseph D.",
         "bid_due": "2026-07-30T00:00:00",
         "bid_submitted": "2026-07-30T00:00:00",
-        "outstanding_days": 22,
+        "outstanding_days": 23,
         "value": 365000.0,
         "bid_value": 365000.0,
         "contract_value": 0.0,
@@ -16027,7 +16055,7 @@
         "estimator": "Jessica W.",
         "bid_due": "2026-07-29T00:00:00",
         "bid_submitted": "2026-07-29T00:00:00",
-        "outstanding_days": 23,
+        "outstanding_days": 24,
         "value": 4694269.0,
         "bid_value": 4694269.0,
         "contract_value": 0.0,
@@ -16056,7 +16084,7 @@
         "estimator": "Joseph D.",
         "bid_due": "2026-08-04T00:00:00",
         "bid_submitted": "2026-08-04T00:00:00",
-        "outstanding_days": 17,
+        "outstanding_days": 18,
         "value": 246600.0,
         "bid_value": 246600.0,
         "contract_value": 0.0,
@@ -16172,7 +16200,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-07-01T00:00:00",
         "bid_submitted": "2026-06-25T00:00:00",
-        "outstanding_days": 57,
+        "outstanding_days": 58,
         "value": 915461.8,
         "bid_value": 915461.8,
         "contract_value": 0.0,
@@ -16201,7 +16229,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-08-20T00:00:00",
         "bid_submitted": "2026-08-20T00:00:00",
-        "outstanding_days": 1,
+        "outstanding_days": 2,
         "value": 100000.0,
         "bid_value": 100000.0,
         "contract_value": 0.0,
@@ -16232,7 +16260,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-05-05T00:00:00",
         "bid_submitted": "2026-05-15T00:00:00",
-        "outstanding_days": 98,
+        "outstanding_days": 99,
         "value": 100000.0,
         "bid_value": 100000.0,
         "contract_value": 0.0,
@@ -16261,7 +16289,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-05-27T00:00:00",
         "bid_submitted": "2026-06-03T00:00:00",
-        "outstanding_days": 79,
+        "outstanding_days": 80,
         "value": 100000.0,
         "bid_value": 100000.0,
         "contract_value": 0.0,
@@ -16290,7 +16318,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-06-12T00:00:00",
         "bid_submitted": "2026-04-18T00:00:00",
-        "outstanding_days": 125,
+        "outstanding_days": 126,
         "value": 500000.0,
         "bid_value": 500000.0,
         "contract_value": 0.0,
@@ -16319,7 +16347,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-03-16T00:00:00",
         "bid_submitted": "2026-03-16T00:00:00",
-        "outstanding_days": 158,
+        "outstanding_days": 159,
         "value": 275978.0,
         "bid_value": 275978.0,
         "contract_value": 0.0,
@@ -16348,7 +16376,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-04-28T00:00:00",
         "bid_submitted": "2026-04-28T00:00:00",
-        "outstanding_days": 115,
+        "outstanding_days": 116,
         "value": 18353.0,
         "bid_value": 18353.0,
         "contract_value": 0.0,
@@ -16377,7 +16405,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-05-22T00:00:00",
         "bid_submitted": "2026-05-19T00:00:00",
-        "outstanding_days": 94,
+        "outstanding_days": 95,
         "value": 350000.0,
         "bid_value": 350000.0,
         "contract_value": 0.0,
@@ -16406,7 +16434,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-05-22T00:00:00",
         "bid_submitted": "2026-05-19T00:00:00",
-        "outstanding_days": 94,
+        "outstanding_days": 95,
         "value": 350000.0,
         "bid_value": 350000.0,
         "contract_value": 0.0,
@@ -16435,7 +16463,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-05-22T00:00:00",
         "bid_submitted": "2026-05-19T00:00:00",
-        "outstanding_days": 94,
+        "outstanding_days": 95,
         "value": 250000.0,
         "bid_value": 250000.0,
         "contract_value": 0.0,
@@ -16464,7 +16492,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-06-04T00:00:00",
         "bid_submitted": "2026-06-04T00:00:00",
-        "outstanding_days": 78,
+        "outstanding_days": 79,
         "value": 1057060.0,
         "bid_value": 1057060.0,
         "contract_value": 0.0,
@@ -16493,7 +16521,7 @@
         "estimator": "Joseph D.",
         "bid_due": "2026-06-02T00:00:00",
         "bid_submitted": "2026-06-02T00:00:00",
-        "outstanding_days": 80,
+        "outstanding_days": 81,
         "value": 672125.0,
         "bid_value": 672125.0,
         "contract_value": 0.0,
@@ -16522,7 +16550,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-05-18T00:00:00",
         "bid_submitted": "2026-05-13T00:00:00",
-        "outstanding_days": 100,
+        "outstanding_days": 101,
         "value": 7284654.0,
         "bid_value": 7284654.0,
         "contract_value": 0.0,
@@ -16551,7 +16579,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-05-29T00:00:00",
         "bid_submitted": "2026-05-15T00:00:00",
-        "outstanding_days": 98,
+        "outstanding_days": 99,
         "value": 4504500.0,
         "bid_value": 4504500.0,
         "contract_value": 0.0,
@@ -16580,7 +16608,7 @@
         "estimator": "Joseph D.",
         "bid_due": "2026-05-27T00:00:00",
         "bid_submitted": "2026-06-02T00:00:00",
-        "outstanding_days": 80,
+        "outstanding_days": 81,
         "value": 2311727.0,
         "bid_value": 2311727.0,
         "contract_value": 0.0,
@@ -16609,7 +16637,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-06-09T00:00:00",
         "bid_submitted": "2026-06-09T00:00:00",
-        "outstanding_days": 73,
+        "outstanding_days": 74,
         "value": 3572096.4,
         "bid_value": 3572096.4,
         "contract_value": 0.0,
@@ -16638,7 +16666,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-06-09T00:00:00",
         "bid_submitted": "2026-06-03T00:00:00",
-        "outstanding_days": 79,
+        "outstanding_days": 80,
         "value": 0.0,
         "bid_value": 0.0,
         "contract_value": 0.0,
@@ -16667,7 +16695,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-06-15T00:00:00",
         "bid_submitted": "2026-06-23T00:00:00",
-        "outstanding_days": 59,
+        "outstanding_days": 60,
         "value": 61906.0,
         "bid_value": 61906.0,
         "contract_value": 0.0,
@@ -16725,7 +16753,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-06-19T00:00:00",
         "bid_submitted": "2026-06-23T00:00:00",
-        "outstanding_days": 59,
+        "outstanding_days": 60,
         "value": 252595.0,
         "bid_value": 252595.0,
         "contract_value": 0.0,
@@ -16754,7 +16782,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-06-19T00:00:00",
         "bid_submitted": "2026-06-23T00:00:00",
-        "outstanding_days": 59,
+        "outstanding_days": 60,
         "value": 56750.0,
         "bid_value": 56750.0,
         "contract_value": 0.0,
@@ -16783,7 +16811,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-06-19T00:00:00",
         "bid_submitted": "2026-06-23T00:00:00",
-        "outstanding_days": 59,
+        "outstanding_days": 60,
         "value": 32594.0,
         "bid_value": 32594.0,
         "contract_value": 0.0,
@@ -16812,7 +16840,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-06-20T00:00:00",
         "bid_submitted": "2026-06-18T00:00:00",
-        "outstanding_days": 64,
+        "outstanding_days": 65,
         "value": 851751.4,
         "bid_value": 851751.4,
         "contract_value": 0.0,
@@ -16841,7 +16869,7 @@
         "estimator": "Joseph D.",
         "bid_due": "2026-07-01T00:00:00",
         "bid_submitted": "2026-06-25T00:00:00",
-        "outstanding_days": 57,
+        "outstanding_days": 58,
         "value": 133903.8,
         "bid_value": 133903.8,
         "contract_value": 0.0,
@@ -16870,7 +16898,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-07-31T00:00:00",
         "bid_submitted": "2026-07-31T00:00:00",
-        "outstanding_days": 21,
+        "outstanding_days": 22,
         "value": 1436500.0,
         "bid_value": 1436500.0,
         "contract_value": 0.0,
@@ -16899,7 +16927,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-07-30T00:00:00",
         "bid_submitted": "2026-06-24T00:00:00",
-        "outstanding_days": 58,
+        "outstanding_days": 59,
         "value": 1630025.3,
         "bid_value": 1630025.3,
         "contract_value": 0.0,
@@ -16928,7 +16956,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-06-30T00:00:00",
         "bid_submitted": "2026-06-30T00:00:00",
-        "outstanding_days": 52,
+        "outstanding_days": 53,
         "value": 83000.0,
         "bid_value": 83000.0,
         "contract_value": 0.0,
@@ -16957,7 +16985,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-06-30T00:00:00",
         "bid_submitted": "2026-06-30T00:00:00",
-        "outstanding_days": 52,
+        "outstanding_days": 53,
         "value": 110330.0,
         "bid_value": 110330.0,
         "contract_value": 0.0,
@@ -16986,7 +17014,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-07-09T00:00:00",
         "bid_submitted": "2026-07-20T00:00:00",
-        "outstanding_days": 32,
+        "outstanding_days": 33,
         "value": 137000.0,
         "bid_value": 137000.0,
         "contract_value": 0.0,
@@ -17015,7 +17043,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-06-30T00:00:00",
         "bid_submitted": "2026-06-30T00:00:00",
-        "outstanding_days": 52,
+        "outstanding_days": 53,
         "value": 269726.6,
         "bid_value": 269726.6,
         "contract_value": 0.0,
@@ -17044,7 +17072,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-06-30T00:00:00",
         "bid_submitted": "2026-06-30T00:00:00",
-        "outstanding_days": 52,
+        "outstanding_days": 53,
         "value": 214576.9,
         "bid_value": 214576.9,
         "contract_value": 0.0,
@@ -17102,7 +17130,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-07-22T00:00:00",
         "bid_submitted": "2026-07-22T00:00:00",
-        "outstanding_days": 30,
+        "outstanding_days": 31,
         "value": 1240560.0,
         "bid_value": 1240560.0,
         "contract_value": 0.0,
@@ -17131,7 +17159,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-07-24T00:00:00",
         "bid_submitted": "2026-07-24T00:00:00",
-        "outstanding_days": 28,
+        "outstanding_days": 29,
         "value": 491839.8,
         "bid_value": 491839.8,
         "contract_value": 0.0,
@@ -17189,7 +17217,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-07-10T00:00:00",
         "bid_submitted": "2026-07-10T00:00:00",
-        "outstanding_days": 42,
+        "outstanding_days": 43,
         "value": 650000.0,
         "bid_value": 650000.0,
         "contract_value": 0.0,
@@ -17218,7 +17246,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-07-17T00:00:00",
         "bid_submitted": null,
-        "outstanding_days": 28,
+        "outstanding_days": 29,
         "value": 6440.0,
         "bid_value": 6440.0,
         "contract_value": 0.0,
@@ -17247,7 +17275,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-07-29T00:00:00",
         "bid_submitted": "2026-07-29T00:00:00",
-        "outstanding_days": 23,
+        "outstanding_days": 24,
         "value": 70000.0,
         "bid_value": 70000.0,
         "contract_value": 0.0,
@@ -17276,7 +17304,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-08-07T00:00:00",
         "bid_submitted": "2026-08-07T00:00:00",
-        "outstanding_days": 14,
+        "outstanding_days": 15,
         "value": 40254.8,
         "bid_value": 40254.8,
         "contract_value": 0.0,
@@ -17334,7 +17362,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-08-11T00:00:00",
         "bid_submitted": "2026-08-11T00:00:00",
-        "outstanding_days": 10,
+        "outstanding_days": 11,
         "value": 505459.4,
         "bid_value": 505459.4,
         "contract_value": 0.0,
@@ -17363,7 +17391,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-08-11T00:00:00",
         "bid_submitted": "2026-08-11T00:00:00",
-        "outstanding_days": 10,
+        "outstanding_days": 11,
         "value": 882732.3,
         "bid_value": 882732.3,
         "contract_value": 0.0,
@@ -17392,7 +17420,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-08-11T00:00:00",
         "bid_submitted": "2026-08-11T00:00:00",
-        "outstanding_days": 10,
+        "outstanding_days": 11,
         "value": 212842.7,
         "bid_value": 212842.7,
         "contract_value": 0.0,
@@ -17450,7 +17478,7 @@
         "estimator": "Temo R.",
         "bid_due": "2026-08-07T00:00:00",
         "bid_submitted": "2026-08-07T00:00:00",
-        "outstanding_days": 14,
+        "outstanding_days": 15,
         "value": 86983.7,
         "bid_value": 86983.7,
         "contract_value": 0.0,
@@ -17624,7 +17652,7 @@
         "estimator": "Jessica K.",
         "bid_due": "2026-08-19T00:00:00",
         "bid_submitted": "2026-08-19T00:00:00",
-        "outstanding_days": 2,
+        "outstanding_days": 3,
         "value": 6000000.0,
         "bid_value": 6000000.0,
         "contract_value": 0.0,
